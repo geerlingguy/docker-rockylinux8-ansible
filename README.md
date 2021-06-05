@@ -4,8 +4,6 @@
 
 Rocky Linux 8 Docker container for Ansible playbook and role testing.
 
-> **NOTE**: This image is currently built from `gammabytehosting/rockylinux`. Once an official Rocky Linux image is released, I will switch the `Dockerfile` on this project to use that instead. See [this issue](https://github.com/geerlingguy/docker-rockylinux8-ansible/issues/1) for progress.
-
 ## Tags
 
   - `latest`: Latest stable version of Ansible.

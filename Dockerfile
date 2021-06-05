@@ -1,4 +1,4 @@
-FROM gammabytehosting/rockylinux:latest
+FROM rockylinux/rockylinux:8.4-rc1
 LABEL maintainer="Jeff Geerling"
 ENV container=docker
 
