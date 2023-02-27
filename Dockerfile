@@ -27,6 +27,7 @@ RUN yum -y install rpm dnf-plugins-core \
       python3 \
       python3-pip \
       python3-pyyaml \
+      iproute \
  && yum clean all
 
 # Upgrade pip to latest version.
