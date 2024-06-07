@@ -2,7 +2,8 @@ FROM rockylinux:8
 LABEL maintainer="Jeff Geerling"
 ENV container=docker
 
-ENV pip_packages "ansible"
+# See: https://github.com/geerlingguy/docker-rockylinux8-ansible/issues/6
+ENV pip_packages "ansible<10.0"
 
 # Install systemd -- See https://hub.docker.com/_/centos/
 RUN rm -f /lib/systemd/system/multi-user.target.wants/*;\
