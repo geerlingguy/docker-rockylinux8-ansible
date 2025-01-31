@@ -1,6 +1,6 @@
 # Rocky Linux 8 Ansible Test Image
 
-[![CI](https://github.com/geerlingguy/docker-rockylinux8-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-rockylinux8-ansible)](https://hub.docker.com/r/geerlingguy/docker-rockylinux8-ansible/)
+[![Build](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-rockylinux8-ansible)](https://hub.docker.com/r/geerlingguy/docker-rockylinux8-ansible/)
 
 Rocky Linux 8 Docker container for Ansible playbook and role testing.
 
